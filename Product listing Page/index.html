@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <header>
+        <h1>Modern Store</h1>
+        <div class="header-controls">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search products by name...">
+            </div>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>🛍️ Filters</h2>
+            
+            <div class="filter-group">
+                <h3>Category</h3>
+                <div id="category-filters">
+                    <p>Loading categories...</p>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <label for="price-range">Max Price: $<span id="max-price-display">...</span></label>
+                <input type="range" id="price-range" min="10" max="1000" value="1000" disabled>
+            </div>
+        </aside>
+
+        <main class="product-area">
+            <div class="controls">
+                <p id="product-count">Displaying 0 products</p>
+                <div class="sort-control">
+                    <label for="sort-select">Sort By:</label>
+                    <select id="sort-select">
+                        <option value="name-asc">Title (A-Z)</option>
+                        <option value="price-asc">Price (Low to High)</option>
+                        <option value="price-desc">Price (High to Low)</option>
+                        <option value="rating-desc">Rating (High to Low)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="product-list" class="product-list">
+                <p id="loading-message">Loading products from API...</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

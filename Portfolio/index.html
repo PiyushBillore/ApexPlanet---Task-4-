@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piyush Billore - Full Stack Developer</title>
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Load Font (Inter) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="container nav-content">
+        <h1 class="logo">Piyush Billore</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section id="home" class="hero-section section-padding">
+        <div class="hero-text">
+          <p class="text-greeting">Hi, I'm</p>
+          <h2 class="text-name">
+            <span class="gradient-text">Piyush Billore</span>
+          </h2>
+          <h3 class="text-tagline">Full Stack Developer</h3>
+          <p class="text-bio">
+            <b>Full Stack Developer</b> and engineering student proficient in
+            the <b>MERN stack</b> and building RESTful APIs. Seeking a
+            challenging internship to apply strong problem-solving skills and a
+            passion for writing clean, collaborative code.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary-btn">
+              View My Work <i data-lucide="rocket" class="icon"></i>
+            </a>
+            <a href="#" class="btn secondary-btn">
+              Download Resume <i data-lucide="file-text" class="icon"></i>
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/piyush-billore/"
+              class="social-icon"
+              aria-label="LinkedIn"
+            >
+              <i data-lucide="linkedin" class="icon-lg"></i>
+            </a>
+            <a
+              href="https://github.com/PiyushBillore"
+              class="social-icon"
+              aria-label="GitHub"
+            >
+              <i data-lucide="github" class="icon-lg"></i>
+            </a>
+            <a
+              href="mailto: piyushbillore3@gmail.com
+"
+              class="social-icon"
+              aria-label="Email"
+            >
+              <i data-lucide="mail" class="icon-lg"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <img
+            src="../Portfolio/assets/Image1.jpg"
+            alt="Piyush Billore"
+            class="hero-image"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="section-padding">
+        <h2 class="section-title gradient-text">About Me</h2>
+        <div class="about-card card">
+          <p class="text-lg mb-4">
+            I am an aspiring Full Stack Developer and engineering student
+            proficient in the <b>MERN stack</b> and building
+            <b>RESTful APIs</b>. I have a strong foundation in data structures,
+            algorithms, and object-oriented programming, driven by a passion for
+            writing clean, collaborative code.
+          </p>
+          <p class="text-lg mb-8">
+            I am currently pursuing a B.Tech in
+            <b>Artificial Intelligence and Machine Learning</b>, which allows me
+            to merge technical expertise with cutting-edge AI concepts. I am
+            actively seeking a challenging internship to apply my skills in a
+            real-world development environment.
+          </p>
+
+          <div class="skill-tags">
+            <span class="skill-tag">MERN Stack</span>
+            <span class="skill-tag">RESTful APIs</span>
+            <span class="skill-tag">Data Structures & Algorithms</span>
+            <span class="skill-tag">Full Stack Development</span>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <h4 class="stat-number">150+</h4>
+              <p class="stat-label">LeetCode Solved</p>
+            </div>
+            <div class="stat-item">
+              <h4 class="stat-number">4+</h4>
+              <p class="stat-label">Major Projects</p>
+            </div>
+            <div class="stat-item">
+              <h4 class="stat-number">Top 15</h4>
+              <p class="stat-label">Coding Challenge Rank</p>
+            </div>
+            <div class="stat-item">
+              <h4 class="stat-number">Full Stack</h4>
+              <p class="stat-label">Expertise</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section-padding">
+        <h2 class="section-title gradient-text">Education Timeline</h2>
+
+        <div class="timeline-container">
+          <div class="timeline-item right">
+            <div class="timeline-card">
+              <p class="timeline-date">2023 - 2027 (Ongoing)</p>
+              <h3 class="timeline-title">Bachelors of Technology – AI & ML</h3>
+              <p class="timeline-institution">
+                Jai Narain College of Technology, Bhopal, MP
+              </p>
+              <p class="timeline-detail">Current CGPA: 7.58</p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-card">
+              <p class="timeline-date">2023</p>
+              <h3 class="timeline-title">Class XII (M.P. Board)</h3>
+              <p class="timeline-institution">
+                Ascent Public School, Shujalpur, MP
+              </p>
+              <p class="timeline-detail">Percentage: 84%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-padding">
+        <h2 class="section-title gradient-text">My Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3 class="project-title">
+              AI-Powered Learning Platform | ClearLens
+            </h3>
+            <p class="project-tech-stack">
+              React.js, Node.js, Express.js, MongoDB, Ollama, Mediapipe
+              (Hackathon Project)
+            </p>
+            <ul class="project-details">
+              <li>
+                Engineered a key feature: an
+                <b>AI-powered Focus Tracker</b> using <b>Mediapipe</b> that
+                utilizes face tracking to detect and reduce user distractions.
+              </li>
+              <li>
+                Integrated <b>AI-powered Doubt Solver</b> using the
+                <b>Ollama-Misrtral API</b> to provide instant, thorough answers.
+              </li>
+              <li>
+                Built the <b>MERN stack</b> infrastructure using Node.js and
+                Express for <b>RESTful APIs</b> and MongoDB.
+              </li>
+            </ul>
+            <a href="#" class="project-link">
+              View Project <i data-lucide="external-link" class="icon"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <h3 class="project-title">
+              Responsive Website Clone (Coding Thinker)
+            </h3>
+            <p class="project-tech-stack">HTML5, CSS3, JavaScript</p>
+            <ul class="project-details">
+              <li>
+                Engineered a <b>fully responsive, pixel-perfect clone</b> of a
+                professional website to demonstrate strong front-end skills.
+              </li>
+              <li>
+                Utilized modern CSS techniques like <b>Flexbox and Grid</b> to
+                precisely replicate the original layout and ensure consistent
+                UI.
+              </li>
+              <li>
+                Implemented dynamic and interactive features using
+                <b>JavaScript</b>.
+              </li>
+            </ul>
+            <a href="#" class="project-link">
+              View Project <i data-lucide="external-link" class="icon"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <h3 class="project-title">Real-Time Weather Forecast App</h3>
+            <p class="project-tech-stack">HTML5, CSS3, JavaScript, REST API</p>
+            <ul class="project-details">
+              <li>
+                Developed a dynamic application providing current weather data
+                based on user location or searched city.
+              </li>
+              <li>
+                Integrated the <b>OpenWeatherMap API</b> to fetch and display
+                real-time information (temperature, humidity, wind speed).
+              </li>
+              <li>
+                Designed a clean and <b>responsive user interface</b> ensuring a
+                seamless and intuitive experience across all devices.
+              </li>
+            </ul>
+            <a href="#" class="project-link">
+              View Project <i data-lucide="external-link" class="icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-padding">
+        <h2 class="section-title gradient-text">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category card">
+            <div class="skill-header">
+              <i data-lucide="layout-grid" class="skill-icon"></i>
+              <h3 class="skill-heading">Frontend</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge">React.js</span>
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category card">
+            <div class="skill-header">
+              <i data-lucide="server" class="skill-icon"></i>
+              <h3 class="skill-heading">Backend & Databases</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">Express.js</span>
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">RESTful APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category card">
+            <div class="skill-header">
+              <i data-lucide="code" class="skill-icon"></i>
+              <h3 class="skill-heading">Languages & Concepts</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">C++</span>
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">Data Structures & Algorithm</span>
+              <span class="skill-badge">OOP</span>
+            </div>
+          </div>
+
+          <div class="skill-category card">
+            <div class="skill-header">
+              <i data-lucide="tool" class="skill-icon"></i>
+              <h3 class="skill-heading">Developer Tools</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge">VS Code</span>
+              <span class="skill-badge">Postman</span>
+            </div>
+          </div>
+
+          <div class="skill-category card">
+            <div class="skill-header">
+              <i data-lucide="brain-circuit" class="skill-icon"></i>
+              <h3 class="skill-heading">AI & ML</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge">Artificial Intelligence</span>
+              <span class="skill-badge">Machine Learning</span>
+              <span class="skill-badge">Ollama API</span>
+              <span class="skill-badge">Mediapipe</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding">
+        <h2 class="section-title gradient-text">Get In Touch</h2>
+        <div class="contact-card card">
+          <div class="contact-info-container">
+            <div class="space-y-6">
+              <h3 class="contact-heading">Let's Connect 👋</h3>
+              <p class="text-gray">
+                Have a project, idea, or just want to say hi? I’m currently
+                seeking challenging <b>Full Stack Development internships</b>.
+                Fill out the form or contact me directly below!
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i data-lucide="mail" class="contact-icon"></i>
+                  <span>piyushbillore3@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                  <i data-lucide="phone" class="contact-icon"></i>
+                  <span>+91 7000048826</span>
+                </div>
+                <div class="contact-item">
+                  <i data-lucide="map-pin" class="contact-icon"></i>
+                  <span>Bhopal (M.P.)</span>
+                </div>
+              </div>
+
+              <div class="social-links large">
+                <a href="https://www.linkedin.com/in/piyush-billore/" class="social-icon" aria-label="LinkedIn">
+                  <i data-lucide="linkedin" class="icon-xl"></i>
+                </a>
+                <a href="https://github.com/PiyushBillore" class="social-icon" aria-label="GitHub">
+                  <i data-lucide="github" class="icon-xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea
+              placeholder="Your Message..."
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="btn primary-btn send-btn">
+              Send Message <i data-lucide="send" class="icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p class="text-sm">
+          Designed & Built with
+          <i data-lucide="heart" class="icon-sm text-red"></i> by Piyush Billore
+        </p>
+        <p class="text-xs">&copy; 2025 | HTML, CSS, and JavaScript.</p>
+        <p class="text-xs italic mt-2">
+          "Dedicated to merging innovative AI concepts with robust Full Stack
+          development."
+        </p>
+      </div>
+      <a
+        href="#home"
+        id="back-to-top"
+        class="back-to-top-btn"
+        aria-label="Back to top"
+      >
+        <i data-lucide="arrow-up" class="icon"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
